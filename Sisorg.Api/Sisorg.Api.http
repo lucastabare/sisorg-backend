@@ -1,0 +1,6 @@
+@Sisorg.Api_HostAddress = http://localhost:5196
+
+GET {{Sisorg.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

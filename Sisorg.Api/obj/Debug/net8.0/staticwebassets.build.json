@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X4iWARnKodWeoNpjDjaqSMkB4AraNNWWTTaJ3T9cHkQ=",
+  "Source": "Sisorg.Api",
+  "BasePath": "_content/Sisorg.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

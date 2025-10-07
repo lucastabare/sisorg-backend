@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sisorg.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Sisorg.Api.Controllers.BaseController">
+            <summary>
+            Base controller with helper methods for consistent responses.
+            </summary>
+        </member>
+        <member name="T:Sisorg.Api.Controllers.RegistriesController">
+            <summary>
+            Handles registries upload, retrieval and deletion.
+            </summary>
+        </member>
+        <member name="M:Sisorg.Api.Controllers.RegistriesController.Upload(Microsoft.AspNetCore.Http.IFormFile,System.Threading.CancellationToken)">
+            <summary>
+            Upload a TXT file (multipart key: "file") with rows "Name#Value#Color".
+            Returns the saved registry with ID, Count, Timestamp and Rows.
+            </summary>
+        </member>
+        <member name="M:Sisorg.Api.Controllers.RegistriesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Get a registry by ID.
+            </summary>
+        </member>
+        <member name="M:Sisorg.Api.Controllers.RegistriesController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Delete a registry by ID.
+            </summary>
+        </member>
+        <member name="T:Sisorg.Api.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Sisorg.Api.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sisorg.Api.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sisorg.Api.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
